@@ -388,6 +388,41 @@ progress[value] {
     .socialicons {
         align-items:initial;
     }
+    .about {
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "title"
+            "img"
+            "intro"
+            "resume-btn";
+    }
+
+    .dp img {
+        height: 150px;
+    }
+
+    .resume-btn-container {
+        justify-content: center;
+    }
+
+    .resume-btn {
+        width: 80px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .projects {
+        flex-direction: column;
+    }
+
+    .card {
+        min-width: auto;
+        max-width: none;
+        margin: 10px 0;
+    }
+}
+
 
     /* Adjust other styles as needed for smaller screens */
 }
