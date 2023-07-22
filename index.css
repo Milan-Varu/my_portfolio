@@ -74,7 +74,7 @@ body {
 }
 
 .home-container {
-    background-image: url(/how-to-become-software-engineer.jpg);
+    background-image: url("./how-to-become-software-engineer.jpg");
     background-size: cover;
     /* backdrop-filter: blur(50px); */
     filter: blur(8px);
